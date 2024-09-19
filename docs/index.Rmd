@@ -1,0 +1,60 @@
+---
+title: "Cheatsheet"
+author: "Courtney Tierney"
+date: "2024-09-19"
+output: html_document
+bibliography: week5references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE)
+```
+
+# [**Title**]{.underline}
+
+## Introduction
+
+This is my introduction
+
+## Methods {.tabset}
+
+### tab 1
+
+-   bullet 1
+-   bullet 2
+
+### tab 2
+
+-   bullet 3
+-   bullet 4
+
+## Results
+
+The answer to x + y is
+
+```{r}
+x <- 5
+y <- 6
+
+print(x+y)
+```
+
+<!--# make a comment with control + shift + c but only in visual mode -->
+
+```{r}
+
+```
+
+<!--# do in visual mode, click insert and then citation and then go to DOI search and can add them all in -->
+
+## References
+
+### [@bellwood2004]
+
+and she said
+
+``` {\"blahblahblahblahblahblah\"=""}
+blah blah blah blah blag blag ablga aglba
+```
+
+[Google Scholar](scholar.google.com)
